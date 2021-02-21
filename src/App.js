@@ -179,7 +179,7 @@ function App() {
   }, [fromCurrency, toCurrency]);
   const toggleOrder = () => {
     setOrder(!order);
-    setExchangeRate(1 / exchangeRate);
+    setExchangeRate(1 * exchangeRate);
   };
   let arrayOfBlues = [
     "EUR",
