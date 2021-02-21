@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  height: 100vh;
+  text-align: center;
+  background: linear-gradient(to top, #114357 0%, #784040 100%), #114357;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App h1 {
+  margin-bottom: 50px;
+  font-size: 3rem;
+}
+
+.flagNName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+  max-height: 40px;
+  max-width: auto;
+  border-radius: 5px;
+}
+
+.flagSymbol {
+  height: 40px;
+  width: 64px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.flagSymbolNumber1 {
+  background-color: #5a91bf;
+}
+
+.flagSymbolNumber2 {
+  background-color: lightcoral;
+}
+
+.flagSymbolNumber3 {
+  background: darkseagreen;
+}
+
+.flagName {
+  height: 40px;
+  width: 155px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flagImg {
+  max-height: 40px;
+  width: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightslategray;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.exchRate {
+  font-size: 20px;
+}
+
+.equalsBtnContainer {
+  margin: 20px;
+}
+
+.reverseBtn {
+  background-color: transparent;
+  height: 135px;
+  width: 110px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.BlueToCoral {
+  background-image: url("./assets/icons/transfer-blue-coral.png");
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+
+.CoralToBlue {
+  background-image: url("./assets/icons/transfer-coral-blue.png");
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+
+.reverseBtnBlueToDKGreen {
+  background-image: url("./assets/icons/transfer-blue-dkgreen.png");
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+
+.DKGreenToBlue {
+  background-image: url("./assets/icons/transfer-dkgreen-blue.png");
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+
+.DKGreenToCoral {
+  background-image: url("./assets/icons/transfer-dkgreen-coral.png");
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+
+.CoralToDKGreen {
+  background-image: url("./assets/icons/transfer-coral-dkgreen.png");
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+
+.CoralToCoral {
+  background-image: url("./assets/icons/transfer-coral-coral.png");
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+
+.BlueToBlue {
+  background-image: url("./assets/icons/transfer-blue-blue.png");
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+
+.DKGreenToDKGreen {
+  background-image: url("./assets/icons/transfer-dkgreen-dkgreen.png");
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+
+@media only screen and (max-width: 375px) {
+  .App h1 {
+    margin-bottom: 60px;
+    font-size: 2rem;
+  }
+  .flagNName {
+    margin: 10px;
+  }
+}

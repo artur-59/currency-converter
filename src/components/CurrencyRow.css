@@ -1,0 +1,46 @@
+.inputContainer {
+  margin: 10px;
+}
+
+.currInput {
+  height: 25px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-bottom: 3px solid #fff;
+  text-align: center;
+  width: 55%;
+  margin-right: 10px;
+}
+
+/* Make Input type number Arrows hidden for all browsers*/
+
+/* Chrome, Safari, Edge, Opera */
+.currInput::-webkit-outer-spin-button,
+.currInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.currInput[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.currSelect {
+  height: 40px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("../assets/icons/down-arrow.png");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 50%;
+  padding-right: 15px;
+}
