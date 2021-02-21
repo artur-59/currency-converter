@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Check the live version for a demo of the App
+
+https://currency-converter.on.fleek.co/
+
 ## Available Scripts
 
 In the project directory, you can run:
