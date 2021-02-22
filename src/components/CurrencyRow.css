@@ -44,3 +44,7 @@
   background-position-y: 50%;
   padding-right: 15px;
 }
+
+.currSelect option {
+  color: #000;
+}

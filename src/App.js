@@ -445,7 +445,7 @@ function App() {
                 <div>
                   Exchange Rate: 1
                   {toCurrencyDetails.map((details) => details.name)} ≈{" "}
-                  {exchangeRate.toFixed(2)}
+                  {(1 / exchangeRate).toFixed(2)}
                   {fromCurrencyDetails.map((details) => details.name)}s
                 </div>
               )
